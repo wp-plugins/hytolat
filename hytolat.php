@@ -32,7 +32,7 @@ function hy_to_translit($title) {
 		case 'off':
 		    return $title;		
 		default: 
-		    return strtr($title, $hy_Char);
+		    return strtr($title, $hyChar);
 	}
 }
 
