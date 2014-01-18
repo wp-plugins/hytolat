@@ -8,7 +8,7 @@ Author URI: http://aboutgadget.ru
 Version: 0.1
 */ 
   
-$hy_char = array(
+$hyChar = array(
 "և"=>"ev","ու"=>"u","[\s\t]+?ո"=>"\svo",
 "Ա"=>"A","Բ"=>"B","Գ"=>"G","Դ"=>"D","Ե"=>"Ye","Զ"=>"Z","Է"=>"E",
 "Ը"=>"Eh","Թ"=>"Th","Ժ"=>"Zh","Ի"=>"I","Լ"=>"L","Խ"=>"X","Ծ"=>"Tc",
@@ -32,7 +32,7 @@ function hy_to_translit($title) {
 		case 'off':
 		    return $title;		
 		default: 
-		    return strtr($title, $hy_char);
+		    return strtr($title, $hy_Char);
 	}
 }
 
