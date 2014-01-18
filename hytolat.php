@@ -26,7 +26,7 @@ $hyChar = array(
   );
  
 function hy_to_translit($title) {
-	global $gost, $isohy;
+	global $hyChar;
 	$htl_standard = get_option('htl_standard');
 	switch ($htl_standard) {
 		case 'off':
