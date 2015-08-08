@@ -2,7 +2,7 @@
 Contributors: Davtyan David
 Tags: url, translations, transliteration, slugs, armenian, hytolat, arm, hy, AM, links
 Requires at least: 1.5
-Tested up to: 3.8
+Tested up to: 4.2.4
 Stable tag: 0.1
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
